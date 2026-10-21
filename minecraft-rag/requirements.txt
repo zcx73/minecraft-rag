@@ -1,0 +1,6 @@
+# 运行本项目需要的第三方库（都很轻量，没有深度学习框架）
+requests>=2.31        # 调用本地 Ollama 的 HTTP 接口
+jieba>=0.42           # 中文分词（BM25 检索用）
+rank-bm25>=0.2.2      # BM25 检索算法
+numpy>=1.26           # rank-bm25 的依赖
+pytest>=8.0           # 测试用，跑 tests/ 时才会用到
